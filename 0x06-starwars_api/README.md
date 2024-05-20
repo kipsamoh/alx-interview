@@ -64,16 +64,15 @@ $ sudo apt-get install -y nodejs
 Install semi-standard
 Documentation
 
-sh
-Copy code
+
 $ sudo npm install semistandard --global
 Install request module and use it
 Documentation
 
-sh
-Copy code
 $ sudo npm install request --global
-$ export NODE_PATH=/usr/lib/node_modules
+$ export NODE_PATH=/usr/lib/node_module
+
+
 Tasks
 0. Star Wars Characters
 mandatory
@@ -86,8 +85,8 @@ You must use the Star Wars API
 You must use the request module
 Example:
 
-sh
-Copy code
+
+
 alexa@ubuntu:~/0x06$ ./0-starwars_characters.js 3
 Luke Skywalker
 C-3PO
